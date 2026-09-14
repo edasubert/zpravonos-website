@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <p class="post-date">{{ page.date | date: "%-d. %-m. %Y" }}</p>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.data_files %}
+  <p class="data-links">
+    Úplná data:
+    {% for f in page.data_files %}<a href="{{ f.url | relative_url }}">{{ f.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+  </p>
+  {% endif %}
+
+  <p class="back-link"><a href="{{ '/' | relative_url }}">← Všechny přehledy</a></p>
+</article>

@@ -1,0 +1,7 @@
+title: Zprávy — denní přehled
+description: Automatizovaný přehled českých zpravodajských událostí, seskupených podle tématu
+lang: cs
+markdown: kramdown
+# No theme gem -- plain custom layouts under _layouts/, nothing to keep in sync with
+# GitHub Pages' supported-theme list.
+plugins: []
