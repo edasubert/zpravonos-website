@@ -1,0 +1,1979 @@
+{
+  "run_date": "2026-10-17",
+  "params": {
+    "resolution": 0.05,
+    "knn_k": 10,
+    "min_weight": 0.12,
+    "min_jaccard_for_discount": 0.3
+  },
+  "clusters": [
+    {
+      "cluster_id": "2026-10-17-0001",
+      "article_ids": [
+        "0429b65c1e4e576f",
+        "e1deb0d4a8e9dd76",
+        "5832a3d40b9c723b",
+        "662628f37f28caf2",
+        "eb373190af6657b0"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Jihlava",
+          "type": "LOC",
+          "weight": 7.0312
+        },
+        {
+          "canonical": "ODS",
+          "type": "ORG",
+          "weight": 3.7763
+        },
+        {
+          "canonical": "Zlín",
+          "type": "LOC",
+          "weight": 2.7995
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 2.4201
+        },
+        {
+          "canonical": "TOP 09",
+          "type": "ORG",
+          "weight": 2.3293
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0001-00",
+          "article_ids": [
+            "e1deb0d4a8e9dd76",
+            "eb373190af6657b0"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Jihlava",
+              "type": "LOC",
+              "weight": 7.5409
+            },
+            {
+              "canonical": "Ryška",
+              "type": "MISC",
+              "weight": 1.8231
+            },
+            {
+              "canonical": "ODS",
+              "type": "ORG",
+              "weight": 1.1906
+            },
+            {
+              "canonical": "TOP 09",
+              "type": "ORG",
+              "weight": 1.0586
+            },
+            {
+              "canonical": "SPD",
+              "type": "ORG",
+              "weight": 0.7653
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 21,
+          "shared_all_count": 21,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "0429b65c1e4e576f",
+        "5832a3d40b9c723b",
+        "662628f37f28caf2"
+      ],
+      "internal_density": 0.8,
+      "shared_any_count": 45,
+      "shared_all_count": 5,
+      "size": 5
+    },
+    {
+      "cluster_id": "2026-10-17-0003",
+      "article_ids": [
+        "9f80eedb1a4892c8",
+        "79ab53bf35b84425",
+        "0d74f83a8b1993e8",
+        "0e0ee7a6487315b9",
+        "5dbb81e07e73bb1e"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Pardubice",
+          "type": "LOC",
+          "weight": 11.6938
+        },
+        {
+          "canonical": "Tesla",
+          "type": "ORG",
+          "weight": 8.1706
+        },
+        {
+          "canonical": "pardubický",
+          "type": "MISC",
+          "weight": 6.1572
+        },
+        {
+          "canonical": "Jan Nadrchal",
+          "type": "PER",
+          "weight": 6.1572
+        },
+        {
+          "canonical": "Městská policie",
+          "type": "ORG",
+          "weight": 5.8594
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 7,
+      "shared_all_count": 7,
+      "size": 5
+    },
+    {
+      "cluster_id": "2026-10-17-0004",
+      "article_ids": [
+        "34b02269de736b2c",
+        "932ec4f0db8df225",
+        "29c035d5ad816858",
+        "b40b0c7f2c7ed6cd",
+        "364591336616cbd6"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Uherské Hradiště",
+          "type": "LOC",
+          "weight": 11.2215
+        },
+        {
+          "canonical": "Slovensko",
+          "type": "LOC",
+          "weight": 10.5615
+        },
+        {
+          "canonical": "Uherský Ostroh",
+          "type": "LOC",
+          "weight": 5.9347
+        },
+        {
+          "canonical": "Česká televize",
+          "type": "ORG",
+          "weight": 4.6937
+        },
+        {
+          "canonical": "Škoda Fabia",
+          "type": "MISC",
+          "weight": 4.2875
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0004-00",
+          "article_ids": [
+            "34b02269de736b2c",
+            "29c035d5ad816858",
+            "b40b0c7f2c7ed6cd",
+            "364591336616cbd6"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Slovensko",
+              "type": "LOC",
+              "weight": 13.2018
+            },
+            {
+              "canonical": "Uherské Hradiště",
+              "type": "LOC",
+              "weight": 8.9112
+            },
+            {
+              "canonical": "Škoda Fabia",
+              "type": "MISC",
+              "weight": 5.3594
+            },
+            {
+              "canonical": "Slovenská televízia",
+              "type": "ORG",
+              "weight": 3.4904
+            },
+            {
+              "canonical": "JOJ",
+              "type": "ORG",
+              "weight": 3.4904
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 18,
+          "shared_all_count": 7,
+          "size": 4,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "932ec4f0db8df225"
+      ],
+      "internal_density": 0.9,
+      "shared_any_count": 18,
+      "shared_all_count": 3,
+      "size": 5
+    },
+    {
+      "cluster_id": "2026-10-17-0005",
+      "article_ids": [
+        "a349e6d16b58a002",
+        "32ba4971be21b880",
+        "34c6d09e662b3a86",
+        "1a8e5a76b4ffd76f"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Kafka",
+          "type": "MISC",
+          "weight": 14.7763
+        },
+        {
+          "canonical": "státní zástupkyně",
+          "type": "MISC",
+          "weight": 10.6515
+        },
+        {
+          "canonical": "Státní zastupitelství",
+          "type": "ORG",
+          "weight": 7.9233
+        },
+        {
+          "canonical": "Malý",
+          "type": "PER",
+          "weight": 4.8922
+        },
+        {
+          "canonical": "Chorvatsko",
+          "type": "LOC",
+          "weight": 3.9577
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 14,
+      "shared_all_count": 7,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-17-0006",
+      "article_ids": [
+        "09b0891c8c0afb4a",
+        "dd68a2dc61fcbea9",
+        "c8cb1d34d39b4953",
+        "46b0ac0aa4acff6a"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Plzeň",
+          "type": "LOC",
+          "weight": 6.5995
+        },
+        {
+          "canonical": "Aschenbrenner",
+          "type": "PER",
+          "weight": 4.8742
+        },
+        {
+          "canonical": "Lumír Aschenbrenner",
+          "type": "PER",
+          "weight": 4.0136
+        },
+        {
+          "canonical": "ODS",
+          "type": "ORG",
+          "weight": 3.373
+        },
+        {
+          "canonical": "Kantorová",
+          "type": "PER",
+          "weight": 2.7017
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0006-00",
+          "article_ids": [
+            "09b0891c8c0afb4a",
+            "dd68a2dc61fcbea9"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Aschenbrenner",
+              "type": "PER",
+              "weight": 5.3002
+            },
+            {
+              "canonical": "Plzeň",
+              "type": "LOC",
+              "weight": 4.5421
+            },
+            {
+              "canonical": "Kantorová",
+              "type": "PER",
+              "weight": 3.0431
+            },
+            {
+              "canonical": "Kupka",
+              "type": "PER",
+              "weight": 1.6055
+            },
+            {
+              "canonical": "Lumír Aschenbrenner",
+              "type": "PER",
+              "weight": 1.4976
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 16,
+          "shared_all_count": 16,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "c8cb1d34d39b4953",
+        "46b0ac0aa4acff6a"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 16,
+      "shared_all_count": 5,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-17-0007",
+      "article_ids": [
+        "4048f8d185514804",
+        "4b78140fc6d24ad2",
+        "e0187e7f788d274f",
+        "3ecd6ff00fa79d48"
+      ],
+      "top_entities": [
+        {
+          "canonical": "senátní volby",
+          "type": "EVENT",
+          "weight": 3.9786
+        },
+        {
+          "canonical": "Radomír Chlad",
+          "type": "PER",
+          "weight": 2.7807
+        },
+        {
+          "canonical": "Kolín",
+          "type": "LOC",
+          "weight": 2.1986
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 1.6496
+        },
+        {
+          "canonical": "Horní komora",
+          "type": "ORG",
+          "weight": 1.6486
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [
+        "4048f8d185514804",
+        "4b78140fc6d24ad2",
+        "e0187e7f788d274f",
+        "3ecd6ff00fa79d48"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 25,
+      "shared_all_count": 1,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-17-0008",
+      "article_ids": [
+        "9aaee91363551f77",
+        "67604f02d9f4affb",
+        "f9ed7ada6703c49a",
+        "ad6cd6d73ccf12ae"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Hlaváč",
+          "type": "PER",
+          "weight": 6.4137
+        },
+        {
+          "canonical": "armáda",
+          "type": "MISC",
+          "weight": 5.6077
+        },
+        {
+          "canonical": "Ministerstvo obrany",
+          "type": "ORG",
+          "weight": 4.2921
+        },
+        {
+          "canonical": "ministerstvo",
+          "type": "MISC",
+          "weight": 3.9462
+        },
+        {
+          "canonical": "Haratek",
+          "type": "PER",
+          "weight": 3.1403
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0008-00",
+          "article_ids": [
+            "f9ed7ada6703c49a",
+            "ad6cd6d73ccf12ae"
+          ],
+          "top_entities": [
+            {
+              "canonical": "ministerstvo",
+              "type": "MISC",
+              "weight": 7.8923
+            },
+            {
+              "canonical": "Haratek",
+              "type": "PER",
+              "weight": 6.2806
+            },
+            {
+              "canonical": "Zůna",
+              "type": "PER",
+              "weight": 5.8586
+            },
+            {
+              "canonical": "Ministerstvo obrany",
+              "type": "ORG",
+              "weight": 5.591
+            },
+            {
+              "canonical": "2. září",
+              "type": "MISC",
+              "weight": 2.184
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 16,
+          "shared_all_count": 16,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "9aaee91363551f77",
+        "67604f02d9f4affb"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 21,
+      "shared_all_count": 3,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-17-0009",
+      "article_ids": [
+        "6bac2cbf28234241",
+        "6ba42bd5b2cfc7b4",
+        "2e3e838348cdc5d2",
+        "8bd02cbf2dd559fa"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Evropská rada",
+          "type": "ORG",
+          "weight": 7.8256
+        },
+        {
+          "canonical": "Itálie",
+          "type": "LOC",
+          "weight": 6.0675
+        },
+        {
+          "canonical": "EU",
+          "type": "ORG",
+          "weight": 3.9462
+        },
+        {
+          "canonical": "Brusel",
+          "type": "LOC",
+          "weight": 3.7796
+        },
+        {
+          "canonical": "ETS",
+          "type": "ORG",
+          "weight": 2.3996
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0009-00",
+          "article_ids": [
+            "2e3e838348cdc5d2",
+            "8bd02cbf2dd559fa"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Evropská rada",
+              "type": "ORG",
+              "weight": 5.2314
+            },
+            {
+              "canonical": "ETS2",
+              "type": "ORG",
+              "weight": 3.8831
+            },
+            {
+              "canonical": "Brusel",
+              "type": "LOC",
+              "weight": 3.1246
+            },
+            {
+              "canonical": "Babiš",
+              "type": "PER",
+              "weight": 1.7573
+            },
+            {
+              "canonical": "Andrej Babiš",
+              "type": "PER",
+              "weight": 1.6648
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 7,
+          "shared_all_count": 7,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "6bac2cbf28234241",
+        "6ba42bd5b2cfc7b4"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 19,
+      "shared_all_count": 4,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-17-0010",
+      "article_ids": [
+        "3d8306057bfc36b0",
+        "79975b4069e8abe1",
+        "6a201da8b048a47e",
+        "6b1f7b2dba276507"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Halenkovice",
+          "type": "LOC",
+          "weight": 12.3802
+        },
+        {
+          "canonical": "Zlínský kraj",
+          "type": "LOC",
+          "weight": 9.0491
+        },
+        {
+          "canonical": "Zlín",
+          "type": "LOC",
+          "weight": 7.6384
+        },
+        {
+          "canonical": "Krajské státní zastupitelství Brno",
+          "type": "ORG",
+          "weight": 5.2467
+        },
+        {
+          "canonical": "Žlutava",
+          "type": "LOC",
+          "weight": 4.1893
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 9,
+      "shared_all_count": 4,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-17-0012",
+      "article_ids": [
+        "820b7dbeb56755e6",
+        "0887dad5dc5cc80b",
+        "015104890bb8b799"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Juchelka",
+          "type": "PER",
+          "weight": 6.5255
+        },
+        {
+          "canonical": "práce",
+          "type": "MISC",
+          "weight": 4.7779
+        },
+        {
+          "canonical": "Akademie věd",
+          "type": "ORG",
+          "weight": 4.7779
+        },
+        {
+          "canonical": "Poslanecká sněmovna",
+          "type": "ORG",
+          "weight": 4.4259
+        },
+        {
+          "canonical": "zdravotnictví",
+          "type": "MISC",
+          "weight": 3.6463
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [
+        "820b7dbeb56755e6",
+        "0887dad5dc5cc80b",
+        "015104890bb8b799"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 26,
+      "shared_all_count": 7,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-17-0013",
+      "article_ids": [
+        "7cdea772af4090b4",
+        "d6f1054a3b783048",
+        "17b05bc9e49d7801"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Karvina",
+          "type": "LOC",
+          "weight": 8.8606
+        },
+        {
+          "canonical": "hammer",
+          "type": "MISC",
+          "weight": 4.9461
+        },
+        {
+          "canonical": "SPD",
+          "type": "ORG",
+          "weight": 1.9345
+        },
+        {
+          "canonical": "Karviná",
+          "type": "LOC",
+          "weight": 1.7093
+        },
+        {
+          "canonical": "komunální volby",
+          "type": "EVENT",
+          "weight": 0.9081
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0013-00",
+          "article_ids": [
+            "d6f1054a3b783048",
+            "17b05bc9e49d7801"
+          ],
+          "top_entities": [
+            {
+              "canonical": "hammer",
+              "type": "MISC",
+              "weight": 7.4191
+            },
+            {
+              "canonical": "Karvina",
+              "type": "LOC",
+              "weight": 6.2213
+            },
+            {
+              "canonical": "SPD",
+              "type": "ORG",
+              "weight": 2.9018
+            },
+            {
+              "canonical": "Jana Wolfová",
+              "type": "PER",
+              "weight": 0.9139
+            },
+            {
+              "canonical": "Karviná",
+              "type": "LOC",
+              "weight": 0.7788
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 6,
+          "shared_all_count": 6,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "7cdea772af4090b4"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 6,
+      "shared_all_count": 3,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-17-0014",
+      "article_ids": [
+        "4a719ed33417f3d3",
+        "5487265f4d8c1328",
+        "42adedd5b90d6a7a"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Igor Červený",
+          "type": "PER",
+          "weight": 5.591
+        },
+        {
+          "canonical": "Ministerstvo životního prostředí",
+          "type": "ORG",
+          "weight": 5.2786
+        },
+        {
+          "canonical": "ochrana přírody",
+          "type": "MISC",
+          "weight": 1.7933
+        },
+        {
+          "canonical": "DIAMO",
+          "type": "ORG",
+          "weight": 1.7933
+        },
+        {
+          "canonical": "Česká inspekce životního prostředí",
+          "type": "ORG",
+          "weight": 1.2553
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [
+        "4a719ed33417f3d3",
+        "5487265f4d8c1328",
+        "42adedd5b90d6a7a"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 2,
+      "shared_all_count": 2,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-17-0015",
+      "article_ids": [
+        "2468bad3beb7e7b9",
+        "984d54272922b70a",
+        "a56038e3a7a77a09"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Okamura",
+          "type": "PER",
+          "weight": 4.5474
+        },
+        {
+          "canonical": "Ukrajina",
+          "type": "LOC",
+          "weight": 4.1482
+        },
+        {
+          "canonical": "Babiš",
+          "type": "PER",
+          "weight": 3.9314
+        },
+        {
+          "canonical": "Rusko",
+          "type": "LOC",
+          "weight": 3.7396
+        },
+        {
+          "canonical": "Trump",
+          "type": "PER",
+          "weight": 2.7589
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0015-00",
+          "article_ids": [
+            "2468bad3beb7e7b9",
+            "a56038e3a7a77a09"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Okamura",
+              "type": "PER",
+              "weight": 6.8211
+            },
+            {
+              "canonical": "Rusko",
+              "type": "LOC",
+              "weight": 3.1827
+            },
+            {
+              "canonical": "Babiš",
+              "type": "PER",
+              "weight": 2.5563
+            },
+            {
+              "canonical": "SPD",
+              "type": "ORG",
+              "weight": 1.8344
+            },
+            {
+              "canonical": "Ukrajina",
+              "type": "LOC",
+              "weight": 1.5409
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 11,
+          "shared_all_count": 11,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "984d54272922b70a"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 18,
+      "shared_all_count": 6,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-17-0016",
+      "article_ids": [
+        "2f6bf6d23c147e3b",
+        "8d40aa8bce72ac27",
+        "8f3731bf5fa8afbe"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Rusko",
+          "type": "LOC",
+          "weight": 7.0814
+        },
+        {
+          "canonical": "Ukrajina",
+          "type": "LOC",
+          "weight": 2.9549
+        },
+        {
+          "canonical": "Národní centrála",
+          "type": "ORG",
+          "weight": 1.6404
+        },
+        {
+          "canonical": "Ruská federace",
+          "type": "ORG",
+          "weight": 1.6404
+        },
+        {
+          "canonical": "Poslanecká sněmovna",
+          "type": "ORG",
+          "weight": 1.1656
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [
+        "2f6bf6d23c147e3b",
+        "8d40aa8bce72ac27",
+        "8f3731bf5fa8afbe"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 10,
+      "shared_all_count": 1,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-17-0017",
+      "article_ids": [
+        "75014cbfbaa46673",
+        "87f08f27be75337b",
+        "1d68da6796759f73"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Vídeňská",
+          "type": "MISC",
+          "weight": 6.249
+        },
+        {
+          "canonical": "Vít Hofman",
+          "type": "PER",
+          "weight": 5.9938
+        },
+        {
+          "canonical": "Pražská policie",
+          "type": "ORG",
+          "weight": 5.9938
+        },
+        {
+          "canonical": "Jan Rybanský",
+          "type": "PER",
+          "weight": 5.9938
+        },
+        {
+          "canonical": "MHD",
+          "type": "ORG",
+          "weight": 5.9938
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-17-0017-00",
+          "article_ids": [
+            "87f08f27be75337b",
+            "1d68da6796759f73"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Vídeňská",
+              "type": "MISC",
+              "weight": 9.3735
+            },
+            {
+              "canonical": "Vít Hofman",
+              "type": "PER",
+              "weight": 2.9969
+            },
+            {
+              "canonical": "Pražská policie",
+              "type": "ORG",
+              "weight": 2.9969
+            },
+            {
+              "canonical": "Jan Rybanský",
+              "type": "PER",
+              "weight": 2.9969
+            },
+            {
+              "canonical": "MHD",
+              "type": "ORG",
+              "weight": 2.9969
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 7,
+          "shared_all_count": 7,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "75014cbfbaa46673"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 10,
+      "shared_all_count": 6,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-17-0018",
+      "article_ids": [
+        "3b18fd0d3ec15f30",
+        "9030faf523442a86"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Kyněra",
+          "type": "PER",
+          "weight": 6.5615
+        },
+        {
+          "canonical": "Tomáš Třetina",
+          "type": "PER",
+          "weight": 4.9963
+        },
+        {
+          "canonical": "Znojmo",
+          "type": "LOC",
+          "weight": 4.6605
+        },
+        {
+          "canonical": "Pavel Černý",
+          "type": "PER",
+          "weight": 4.3727
+        },
+        {
+          "canonical": "znojemské ano",
+          "type": "MISC",
+          "weight": 4.3727
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 6,
+      "shared_all_count": 6,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0019",
+      "article_ids": [
+        "9a4385ab2ea8929b",
+        "3b89cbfc330b7c39"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Pešta",
+          "type": "PER",
+          "weight": 6.5615
+        },
+        {
+          "canonical": "Rico",
+          "type": "PER",
+          "weight": 5.5444
+        },
+        {
+          "canonical": "Enrico Pešta",
+          "type": "PER",
+          "weight": 3.8291
+        },
+        {
+          "canonical": "Miroslav Cihi",
+          "type": "PER",
+          "weight": 3.8291
+        },
+        {
+          "canonical": "Karel Mec",
+          "type": "PER",
+          "weight": 2.7324
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 10,
+      "shared_all_count": 10,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0020",
+      "article_ids": [
+        "2797ed72fe3c7d13",
+        "56e0a49029632e80"
+      ],
+      "top_entities": [
+        {
+          "canonical": "krejčí",
+          "type": "MISC",
+          "weight": 4.9211
+        },
+        {
+          "canonical": "Plaga",
+          "type": "PER",
+          "weight": 2.2477
+        },
+        {
+          "canonical": "Felcmanová",
+          "type": "PER",
+          "weight": 1.883
+        },
+        {
+          "canonical": "Miroslav Krejčí",
+          "type": "PER",
+          "weight": 1.6404
+        },
+        {
+          "canonical": "Ostap",
+          "type": "ORG",
+          "weight": 1.4122
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 4,
+      "shared_all_count": 4,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0021",
+      "article_ids": [
+        "8284c74b0ec9e411",
+        "cc0df10359a9d338"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Rudolf Křesťan",
+          "type": "PER",
+          "weight": 9.3735
+        },
+        {
+          "canonical": "Mladý svět",
+          "type": "ORG",
+          "weight": 2.184
+        },
+        {
+          "canonical": "nedělní ráno",
+          "type": "MISC",
+          "weight": 2.184
+        },
+        {
+          "canonical": "Pražské Olšanské hřbitovy",
+          "type": "LOC",
+          "weight": 2.184
+        },
+        {
+          "canonical": "křesťan",
+          "type": "MISC",
+          "weight": 2.0632
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 6,
+      "shared_all_count": 6,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0022",
+      "article_ids": [
+        "9facc53dff246bd2",
+        "c37ada68f0683e4d"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Březina",
+          "type": "LOC",
+          "weight": 6.5615
+        },
+        {
+          "canonical": "Pražské sportovní",
+          "type": "MISC",
+          "weight": 4.2884
+        },
+        {
+          "canonical": "Soud I. stupně",
+          "type": "ORG",
+          "weight": 2.9527
+        },
+        {
+          "canonical": "Wolf",
+          "type": "PER",
+          "weight": 2.9527
+        },
+        {
+          "canonical": "Karel Březina",
+          "type": "PER",
+          "weight": 1.4763
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 23,
+      "shared_all_count": 23,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0023",
+      "article_ids": [
+        "04503f7618899271",
+        "4bc0b625920ab64e"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Evropská komise",
+          "type": "ORG",
+          "weight": 5.0694
+        },
+        {
+          "canonical": "RSVP Trust",
+          "type": "ORG",
+          "weight": 3.2807
+        },
+        {
+          "canonical": "Agrofert",
+          "type": "ORG",
+          "weight": 2.2477
+        },
+        {
+          "canonical": "Brusel",
+          "type": "LOC",
+          "weight": 1.7815
+        },
+        {
+          "canonical": "Transparency International",
+          "type": "ORG",
+          "weight": 1.7485
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 5,
+      "shared_all_count": 5,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0024",
+      "article_ids": [
+        "5e71c2a35c35240c",
+        "c12fe143a2fc0fa0"
+      ],
+      "top_entities": [
+        {
+          "canonical": "poštovní schránka",
+          "type": "MISC",
+          "weight": 4.3727
+        },
+        {
+          "canonical": "Státní volební komise",
+          "type": "ORG",
+          "weight": 3.9944
+        },
+        {
+          "canonical": "Nejvyšší správní soud",
+          "type": "ORG",
+          "weight": 3.9944
+        },
+        {
+          "canonical": "Matěj Ondřej Havel",
+          "type": "PER",
+          "weight": 3.726
+        },
+        {
+          "canonical": "Petr Macinka",
+          "type": "PER",
+          "weight": 3.2039
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 8,
+      "shared_all_count": 8,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0025",
+      "article_ids": [
+        "c55ab4621738fe99",
+        "c10adf286a0e003d"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Kuba",
+          "type": "PER",
+          "weight": 4.688
+        },
+        {
+          "canonical": "Mariánské Lázně",
+          "type": "LOC",
+          "weight": 3.318
+        },
+        {
+          "canonical": "Naše Česko",
+          "type": "ORG",
+          "weight": 2.6158
+        },
+        {
+          "canonical": "Hnutí Naše Česko",
+          "type": "ORG",
+          "weight": 1.9872
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 1.9234
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 16,
+      "shared_all_count": 16,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0026",
+      "article_ids": [
+        "737b9e0f9ea67cc7",
+        "8e3f2c75318aabb5"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Hlaváček",
+          "type": "PER",
+          "weight": 6.5615
+        },
+        {
+          "canonical": "pražské stan",
+          "type": "MISC",
+          "weight": 4.0165
+        },
+        {
+          "canonical": "Starostové a nezávislí",
+          "type": "ORG",
+          "weight": 3.508
+        },
+        {
+          "canonical": "Praha Sobě",
+          "type": "ORG",
+          "weight": 2.1963
+        },
+        {
+          "canonical": "Praha",
+          "type": "LOC",
+          "weight": 1.7982
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 18,
+      "shared_all_count": 18,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0027",
+      "article_ids": [
+        "d81111b27fe4830f",
+        "6757a2a8c2cbe1c5"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Filipín",
+          "type": "LOC",
+          "weight": 7.7063
+        },
+        {
+          "canonical": "Havlíček",
+          "type": "PER",
+          "weight": 4.4993
+        },
+        {
+          "canonical": "Indie",
+          "type": "LOC",
+          "weight": 4.11
+        },
+        {
+          "canonical": "Filipíny",
+          "type": "LOC",
+          "weight": 2.2496
+        },
+        {
+          "canonical": "Česko",
+          "type": "LOC",
+          "weight": 1.8983
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 10,
+      "shared_all_count": 10,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0028",
+      "article_ids": [
+        "a6201d56c540342d",
+        "5175dd39e4b27a2a"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Větrné elektrárny",
+          "type": "ORG",
+          "weight": 4.9211
+        },
+        {
+          "canonical": "Bystré nad Jizerou",
+          "type": "LOC",
+          "weight": 3.2807
+        },
+        {
+          "canonical": "Bystré",
+          "type": "LOC",
+          "weight": 2.6899
+        },
+        {
+          "canonical": "Turkovo Velké",
+          "type": "LOC",
+          "weight": 1.7485
+        },
+        {
+          "canonical": "větrné elektrárny",
+          "type": "MISC",
+          "weight": 0.9415
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 2,
+      "shared_all_count": 2,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0029",
+      "article_ids": [
+        "49e98e11c79edcdb",
+        "83c2adf62512ce8b"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Martin Bílý",
+          "type": "PER",
+          "weight": 4.593
+        },
+        {
+          "canonical": "Čína",
+          "type": "LOC",
+          "weight": 4.2983
+        },
+        {
+          "canonical": "Jang I-min",
+          "type": "MISC",
+          "weight": 1.883
+        },
+        {
+          "canonical": "čínské zpravodajské služby",
+          "type": "MISC",
+          "weight": 1.883
+        },
+        {
+          "canonical": "Čínská zpravodajská služba",
+          "type": "ORG",
+          "weight": 1.6404
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 3,
+      "shared_all_count": 3,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0030",
+      "article_ids": [
+        "585c84fac9a9b8cb",
+        "6f1e4a8306679f4e"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Praha",
+          "type": "LOC",
+          "weight": 3.1465
+        },
+        {
+          "canonical": "Karla Kirschová",
+          "type": "PER",
+          "weight": 1.7482
+        },
+        {
+          "canonical": "Richard Hrdina",
+          "type": "PER",
+          "weight": 1.7482
+        },
+        {
+          "canonical": "výbuch v centru Prahy",
+          "type": "MISC",
+          "weight": 0.3766
+        },
+        {
+          "canonical": "Miroslav Řezáč",
+          "type": "PER",
+          "weight": 0.3766
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 3,
+      "shared_all_count": 3,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0031",
+      "article_ids": [
+        "d48cd0754d02a7a5",
+        "7573f16fdb595503"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Metnar",
+          "type": "PER",
+          "weight": 6.3271
+        },
+        {
+          "canonical": "Lubomír Metnar",
+          "type": "PER",
+          "weight": 1.9122
+        },
+        {
+          "canonical": "bezpečnostní sbory",
+          "type": "MISC",
+          "weight": 1.883
+        },
+        {
+          "canonical": "Poslanecká sněmovna",
+          "type": "ORG",
+          "weight": 1.7485
+        },
+        {
+          "canonical": "Ministerstvo spravedlnosti",
+          "type": "ORG",
+          "weight": 1.5383
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 5,
+      "shared_all_count": 5,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0032",
+      "article_ids": [
+        "f4a9aaec6a020844",
+        "e27c481fc9bbd781"
+      ],
+      "top_entities": [
+        {
+          "canonical": "obsah",
+          "type": "MISC",
+          "weight": 6.5615
+        },
+        {
+          "canonical": "mobilní aplikace",
+          "type": "MISC",
+          "weight": 6.5615
+        },
+        {
+          "canonical": "Šlapanická orlovnaBrno",
+          "type": "MISC",
+          "weight": 1.4337
+        },
+        {
+          "canonical": "lidovci",
+          "type": "MISC",
+          "weight": 0.8482
+        },
+        {
+          "canonical": "volbách do zastupitelstva hlavního",
+          "type": "MISC",
+          "weight": 0.6268
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 2,
+      "shared_all_count": 2,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0033",
+      "article_ids": [
+        "27da2e9349c5d883",
+        "1947f85116864c31"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Grolich",
+          "type": "MISC",
+          "weight": 5.7788
+        },
+        {
+          "canonical": "Vyškovsko",
+          "type": "LOC",
+          "weight": 3.2628
+        },
+        {
+          "canonical": "Jan Grolich",
+          "type": "PER",
+          "weight": 2.9315
+        },
+        {
+          "canonical": "lidovci Grolich",
+          "type": "MISC",
+          "weight": 2.6899
+        },
+        {
+          "canonical": "Hnutí ANO",
+          "type": "ORG",
+          "weight": 2.4139
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 4,
+      "shared_all_count": 4,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-17-0034",
+      "article_ids": [
+        "9327568a89d7e795",
+        "52ed1fb75080191d"
+      ],
+      "top_entities": [
+        {
+          "canonical": "ČEZ",
+          "type": "ORG",
+          "weight": 8.5626
+        },
+        {
+          "canonical": "DIAG Human",
+          "type": "ORG",
+          "weight": 5.6475
+        },
+        {
+          "canonical": "Lucembursko",
+          "type": "LOC",
+          "weight": 4.2556
+        },
+        {
+          "canonical": "Novo Nordisk",
+          "type": "ORG",
+          "weight": 1.7154
+        },
+        {
+          "canonical": "Gasnet",
+          "type": "ORG",
+          "weight": 1.1436
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 20,
+      "shared_all_count": 20,
+      "size": 2
+    }
+  ],
+  "singletons": [
+    "62099d9603d99f46",
+    "cabc34537ecc992c",
+    "26ff2cb1e7ace73b",
+    "f1cb729594370284",
+    "72b0eea99e0fbf56",
+    "d68e16c590c5edd3",
+    "e64aa07a694fe755",
+    "bffc98d5041aef91",
+    "2dbda90ceade7bed",
+    "ea4597bfce9161fe",
+    "23d05bfb513ed929",
+    "b8ede597abc6bbce",
+    "c1d6331ea4ace8fd",
+    "d95d06b20a8a4a6c",
+    "a8311c8b08bd5222",
+    "7bf87fed39b154bc",
+    "fd0f212f351bdca2",
+    "7e5c2c7cf40a79c8",
+    "3889692fda2f60be",
+    "d3858840fdfa236a",
+    "bb7819f3ccac3a2d",
+    "64c84671800af2cb",
+    "1bb48a5de2b07777",
+    "291c8c7fa8e62912",
+    "7ed61d57c5223b12",
+    "2a2ec64a30488bfa",
+    "45314cac064539d2",
+    "77bc9093718f2aef",
+    "5c212d42dbf8888b",
+    "fb9834dc28cda571",
+    "f0b2c90694f7cd95",
+    "ef4ef7a4a46a790b",
+    "f3c7b74ba35d5ae5",
+    "773f7f0c5ff4da78",
+    "9f5b28283e7e3bf5",
+    "ac8f032ebaedea9f",
+    "626e3df8663aa686",
+    "b6e56b737284d132",
+    "dcd3982f02c08b1e",
+    "7f337e23cbb008ce",
+    "4bbbfeae7f434e56",
+    "25a0ec6a083549ef",
+    "4ee1272fb11ecc6c",
+    "018be7142922b98c",
+    "abb848ddcc02c98f",
+    "2b529546b780830a",
+    "a1dfe525b88e15a6",
+    "f7b2b9ad898974ca",
+    "4e62a5270e699ed4",
+    "b85520b7841399a3",
+    "f866bc45e2b92f3b",
+    "152c2a90c622b9a1",
+    "8999b9e00ee1b294",
+    "1ac1744d281cc45a",
+    "da85e7f477bb6f37",
+    "6f10afcfb06898c9",
+    "8292907bcddba60b",
+    "025cffc389076b04",
+    "e30ba28d37fbf009",
+    "f521f1571dd717e4",
+    "17352744b9f7db08",
+    "01c7472a5f23b6bc",
+    "5cad83e795207ad6",
+    "adfd982a4877199e",
+    "3fcb33d762a842b3",
+    "048fa3c963b1c719",
+    "d5bcd36c7618e6a6",
+    "d36ade748f32b64f",
+    "5dba78ed2f2a5f2f",
+    "102d9cdc6049ec91",
+    "7d5100623946f695",
+    "b2057773c91115d4",
+    "bcde4384eb2f740f",
+    "3d8b840ae5056fd3",
+    "02ccf06ffbee8376",
+    "fa883de6957bef4f",
+    "63fda848a394815a",
+    "f3b8758fd064a13d",
+    "0b3bff9e3386611b",
+    "5d9fb0706f05e2bb",
+    "56d57244ef0e185d",
+    "2d3cc80dcfe13ffe",
+    "be2c182d40b3fd60",
+    "6f79eef21c028297",
+    "93e36bd89b66333c",
+    "f72fadcef5f13fa8",
+    "55f3712b295d709d",
+    "9ed66975ade16e39",
+    "e622e2b8171b8ad2",
+    "b8f6e6b9a4a3edbc",
+    "153a958e35df3780",
+    "60c3dcd9c9c4c126",
+    "6666a3c7987e2542",
+    "d969610512f0bf41",
+    "18d6335956569e86",
+    "f7d76c720d7a79cf",
+    "cefd74c3c81bcfbe",
+    "b4fe74b6451301b7",
+    "2034c85446b36d7a",
+    "37bb1e175e16eb8b",
+    "41128e4140c73645",
+    "bc675e559c5d794e",
+    "5a4564c4613f3c1d",
+    "8ebb7a5770b539e4",
+    "2e0749fd90461639",
+    "3b2aa25320a9f1a8",
+    "05c347c4c2bcd0d2",
+    "d14ebe3d944787df",
+    "9ecc501a40a55bd8",
+    "cb34c408eee9ef14",
+    "3f8dfc5dc3a3f19b",
+    "a205d806078fbbe5",
+    "2c78d013092f28c5",
+    "41daeb3b870017c1",
+    "b85a9916b1b15782",
+    "f284160a7519ec33",
+    "b5cea0e7ac25e03a",
+    "dceea195655f29f9",
+    "2c4b9e1eea2adc03",
+    "d420f906f581829f",
+    "e8ecd843eadcf2ae",
+    "8edabbb842aefdf3",
+    "5ca30562fd728b1e",
+    "c7d2f5fbf54a7ae9",
+    "bd94523da0845da9",
+    "574468733c62e596"
+  ],
+  "stats": {
+    "article_count": 217,
+    "edges_before_sparsify": 506,
+    "edges_after_sparsify": 160,
+    "largest_component_size": 12,
+    "largest_component_fraction": 0.0553,
+    "degree_distribution": [
+      {
+        "label": "0",
+        "count": 101
+      },
+      {
+        "label": "1–3",
+        "count": 93
+      },
+      {
+        "label": "4–10",
+        "count": 21
+      },
+      {
+        "label": ">10",
+        "count": 2
+      }
+    ],
+    "cluster_size_histogram": [
+      {
+        "label": "1",
+        "count": 106
+      },
+      {
+        "label": "2–3",
+        "count": 24
+      },
+      {
+        "label": "4–10",
+        "count": 10
+      },
+      {
+        "label": ">10",
+        "count": 1
+      }
+    ],
+    "top_entities_by_df": [
+      {
+        "canonical": "ANO",
+        "type": "ORG",
+        "doc_count": 70,
+        "pct": 32.3
+      },
+      {
+        "canonical": "Česko",
+        "type": "LOC",
+        "doc_count": 57,
+        "pct": 26.3
+      },
+      {
+        "canonical": "ODS",
+        "type": "ORG",
+        "doc_count": 54,
+        "pct": 24.9
+      },
+      {
+        "canonical": "Praha",
+        "type": "LOC",
+        "doc_count": 45,
+        "pct": 20.7
+      },
+      {
+        "canonical": "Česká republika",
+        "type": "LOC",
+        "doc_count": 43,
+        "pct": 19.8
+      },
+      {
+        "canonical": "SPD",
+        "type": "ORG",
+        "doc_count": 42,
+        "pct": 19.4
+      },
+      {
+        "canonical": "KDU-ČSL",
+        "type": "ORG",
+        "doc_count": 32,
+        "pct": 14.7
+      },
+      {
+        "canonical": "TOP 09",
+        "type": "ORG",
+        "doc_count": 31,
+        "pct": 14.3
+      },
+      {
+        "canonical": "Starostové a nezávislí",
+        "type": "ORG",
+        "doc_count": 29,
+        "pct": 13.4
+      },
+      {
+        "canonical": "Andrej Babiš",
+        "type": "PER",
+        "doc_count": 28,
+        "pct": 12.9
+      },
+      {
+        "canonical": "komunální volby",
+        "type": "EVENT",
+        "doc_count": 26,
+        "pct": 12.0
+      },
+      {
+        "canonical": "Hnutí ANO",
+        "type": "ORG",
+        "doc_count": 25,
+        "pct": 11.5
+      },
+      {
+        "canonical": "senátní volby",
+        "type": "EVENT",
+        "doc_count": 20,
+        "pct": 9.2
+      },
+      {
+        "canonical": "Evropská unie",
+        "type": "ORG",
+        "doc_count": 20,
+        "pct": 9.2
+      },
+      {
+        "canonical": "Petr Pavel",
+        "type": "PER",
+        "doc_count": 17,
+        "pct": 7.8
+      },
+      {
+        "canonical": "Brno",
+        "type": "LOC",
+        "doc_count": 16,
+        "pct": 7.4
+      },
+      {
+        "canonical": "Ukrajina",
+        "type": "LOC",
+        "doc_count": 16,
+        "pct": 7.4
+      },
+      {
+        "canonical": "Česká pirátská strana",
+        "type": "ORG",
+        "doc_count": 16,
+        "pct": 7.4
+      },
+      {
+        "canonical": "Plzeň",
+        "type": "LOC",
+        "doc_count": 15,
+        "pct": 6.9
+      },
+      {
+        "canonical": "Evropa",
+        "type": "LOC",
+        "doc_count": 15,
+        "pct": 6.9
+      }
+    ]
+  }
+}
