@@ -1,0 +1,2020 @@
+{
+  "run_date": "2026-10-19",
+  "params": {
+    "resolution": 0.05,
+    "knn_k": 10,
+    "min_weight": 0.12,
+    "min_jaccard_for_discount": 0.3
+  },
+  "clusters": [
+    {
+      "cluster_id": "2026-10-19-0001",
+      "article_ids": [
+        "9276384cf9d0980d",
+        "c60de3cbb030d37a",
+        "6cc10d48605d623d",
+        "80f60a56647d9595",
+        "d6fd88a05c949538",
+        "5da7837aaf5803bb",
+        "734209736c0273c5"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Ostrava",
+          "type": "LOC",
+          "weight": 16.4489
+        },
+        {
+          "canonical": "Ostravak",
+          "type": "ORG",
+          "weight": 4.5774
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 2.699
+        },
+        {
+          "canonical": "Boháč",
+          "type": "PER",
+          "weight": 2.4121
+        },
+        {
+          "canonical": "Vereš",
+          "type": "PER",
+          "weight": 2.0371
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0001-00",
+          "article_ids": [
+            "c60de3cbb030d37a",
+            "6cc10d48605d623d",
+            "d6fd88a05c949538",
+            "734209736c0273c5"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Ostrava",
+              "type": "LOC",
+              "weight": 8.7397
+            },
+            {
+              "canonical": "Ostravak",
+              "type": "ORG",
+              "weight": 5.6481
+            },
+            {
+              "canonical": "Boháč",
+              "type": "PER",
+              "weight": 4.2211
+            },
+            {
+              "canonical": "ANO",
+              "type": "ORG",
+              "weight": 3.5987
+            },
+            {
+              "canonical": "Vereš",
+              "type": "PER",
+              "weight": 2.4786
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 28,
+          "shared_all_count": 16,
+          "size": 4,
+          "subclusters": [],
+          "subsingletons": []
+        },
+        {
+          "subcluster_id": "2026-10-19-0001-01",
+          "article_ids": [
+            "9276384cf9d0980d",
+            "80f60a56647d9595"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Šimetka",
+              "type": "PER",
+              "weight": 6.3656
+            },
+            {
+              "canonical": "Ostrava",
+              "type": "LOC",
+              "weight": 5.1395
+            },
+            {
+              "canonical": "Ondřej Šimetka",
+              "type": "PER",
+              "weight": 1.713
+            },
+            {
+              "canonical": "Poruba",
+              "type": "LOC",
+              "weight": 1.5482
+            },
+            {
+              "canonical": "Zdeněk Jiříček",
+              "type": "PER",
+              "weight": 1.5482
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 9,
+          "shared_all_count": 9,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "5da7837aaf5803bb"
+      ],
+      "internal_density": 0.7143,
+      "shared_any_count": 35,
+      "shared_all_count": 1,
+      "size": 7
+    },
+    {
+      "cluster_id": "2026-10-19-0002",
+      "article_ids": [
+        "8859c04bc5e8c166",
+        "c451b684463a838f",
+        "9032deb19008636c",
+        "3b18fd0d3ec15f30",
+        "9b1f2ad7a7957d64",
+        "f39c0d2cd11b0dd1"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Znojmo",
+          "type": "LOC",
+          "weight": 7.7498
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 3.7487
+        },
+        {
+          "canonical": "Šlachta",
+          "type": "PER",
+          "weight": 3.2719
+        },
+        {
+          "canonical": "Pavel Černý",
+          "type": "PER",
+          "weight": 3.0091
+        },
+        {
+          "canonical": "Tomáš Třetina",
+          "type": "PER",
+          "weight": 2.7611
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0002-00",
+          "article_ids": [
+            "c451b684463a838f",
+            "9032deb19008636c",
+            "9b1f2ad7a7957d64"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Šlachta",
+              "type": "PER",
+              "weight": 6.5438
+            },
+            {
+              "canonical": "Mračková Vildumetzová",
+              "type": "PER",
+              "weight": 2.7839
+            },
+            {
+              "canonical": "senátor",
+              "type": "MISC",
+              "weight": 2.7171
+            },
+            {
+              "canonical": "ANO",
+              "type": "ORG",
+              "weight": 2.699
+            },
+            {
+              "canonical": "Grolich",
+              "type": "MISC",
+              "weight": 1.3998
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 41,
+          "shared_all_count": 30,
+          "size": 3,
+          "subclusters": [],
+          "subsingletons": []
+        },
+        {
+          "subcluster_id": "2026-10-19-0002-01",
+          "article_ids": [
+            "8859c04bc5e8c166",
+            "3b18fd0d3ec15f30"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Znojmo",
+              "type": "LOC",
+              "weight": 5.0055
+            },
+            {
+              "canonical": "Kyněra",
+              "type": "PER",
+              "weight": 3.9594
+            },
+            {
+              "canonical": "Moravský Krumlov",
+              "type": "LOC",
+              "weight": 3.7984
+            },
+            {
+              "canonical": "Jiří Kyněra",
+              "type": "PER",
+              "weight": 3.4671
+            },
+            {
+              "canonical": "senátní kandidát",
+              "type": "MISC",
+              "weight": 2.6712
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 6,
+          "shared_all_count": 6,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "f39c0d2cd11b0dd1"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 45,
+      "shared_all_count": 2,
+      "size": 6
+    },
+    {
+      "cluster_id": "2026-10-19-0005",
+      "article_ids": [
+        "9b00631741f39318",
+        "bc24f8366aab1ba8",
+        "92d530176811b013",
+        "c16cff033b6bb2d6",
+        "37b32956dd7c6387",
+        "35bc653ecf7370a2"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Kladno",
+          "type": "LOC",
+          "weight": 9.1145
+        },
+        {
+          "canonical": "Šípová",
+          "type": "PER",
+          "weight": 5.8892
+        },
+        {
+          "canonical": "Petr Paták",
+          "type": "PER",
+          "weight": 3.6872
+        },
+        {
+          "canonical": "Adéla Sucharda Šípová",
+          "type": "PER",
+          "weight": 3.369
+        },
+        {
+          "canonical": "Hřib",
+          "type": "PER",
+          "weight": 3.0995
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0005-00",
+          "article_ids": [
+            "92d530176811b013",
+            "37b32956dd7c6387"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Kladno",
+              "type": "LOC",
+              "weight": 6.2902
+            },
+            {
+              "canonical": "Paták",
+              "type": "PER",
+              "weight": 4.4771
+            },
+            {
+              "canonical": "Suchard Šípová",
+              "type": "PER",
+              "weight": 2.6735
+            },
+            {
+              "canonical": "Železniční dráhy",
+              "type": "ORG",
+              "weight": 1.4645
+            },
+            {
+              "canonical": "Praha - západ",
+              "type": "LOC",
+              "weight": 1.4645
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 14,
+          "shared_all_count": 14,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        },
+        {
+          "subcluster_id": "2026-10-19-0005-01",
+          "article_ids": [
+            "bc24f8366aab1ba8",
+            "c16cff033b6bb2d6"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Hřib",
+              "type": "PER",
+              "weight": 9.2984
+            },
+            {
+              "canonical": "demokratická opozice",
+              "type": "MISC",
+              "weight": 1.8969
+            },
+            {
+              "canonical": "Sucharda Šípová",
+              "type": "PER",
+              "weight": 1.6141
+            },
+            {
+              "canonical": "Zdeněk Hřib",
+              "type": "PER",
+              "weight": 1.523
+            },
+            {
+              "canonical": "horní komora parlamentu",
+              "type": "ORG",
+              "weight": 1.2832
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 12,
+          "shared_all_count": 12,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "9b00631741f39318",
+        "35bc653ecf7370a2"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 23,
+      "shared_all_count": 4,
+      "size": 6
+    },
+    {
+      "cluster_id": "2026-10-19-0008",
+      "article_ids": [
+        "2468bad3beb7e7b9",
+        "01c7472a5f23b6bc",
+        "8d40aa8bce72ac27",
+        "12f8599ebed6c21a",
+        "a56038e3a7a77a09"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Ukrajina",
+          "type": "LOC",
+          "weight": 9.407
+        },
+        {
+          "canonical": "Rusko",
+          "type": "LOC",
+          "weight": 5.8229
+        },
+        {
+          "canonical": "Okamura",
+          "type": "PER",
+          "weight": 4.3319
+        },
+        {
+          "canonical": "Donald Trump",
+          "type": "PER",
+          "weight": 3.1395
+        },
+        {
+          "canonical": "Andrej Babiš",
+          "type": "PER",
+          "weight": 2.9911
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0008-00",
+          "article_ids": [
+            "2468bad3beb7e7b9",
+            "a56038e3a7a77a09"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Okamura",
+              "type": "PER",
+              "weight": 6.7569
+            },
+            {
+              "canonical": "Rusko",
+              "type": "LOC",
+              "weight": 3.5506
+            },
+            {
+              "canonical": "Babiš",
+              "type": "PER",
+              "weight": 2.1651
+            },
+            {
+              "canonical": "Ukrajina",
+              "type": "LOC",
+              "weight": 1.8588
+            },
+            {
+              "canonical": "SPD",
+              "type": "ORG",
+              "weight": 1.5977
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 11,
+          "shared_all_count": 11,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "01c7472a5f23b6bc",
+        "8d40aa8bce72ac27",
+        "12f8599ebed6c21a"
+      ],
+      "internal_density": 0.7,
+      "shared_any_count": 39,
+      "shared_all_count": 3,
+      "size": 5
+    },
+    {
+      "cluster_id": "2026-10-19-0009",
+      "article_ids": [
+        "5d221bb310a32134",
+        "d68576075aa42c70",
+        "5873c3b0d6f1880d",
+        "b817bafea73d1893"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Vlček",
+          "type": "PER",
+          "weight": 6.3401
+        },
+        {
+          "canonical": "Starostové a nezávislí",
+          "type": "ORG",
+          "weight": 3.8611
+        },
+        {
+          "canonical": "Radomír Chlad",
+          "type": "PER",
+          "weight": 3.4856
+        },
+        {
+          "canonical": "Dvořák",
+          "type": "PER",
+          "weight": 2.9106
+        },
+        {
+          "canonical": "Vít Rakušan",
+          "type": "PER",
+          "weight": 2.0316
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0009-00",
+          "article_ids": [
+            "d68576075aa42c70",
+            "5873c3b0d6f1880d",
+            "b817bafea73d1893"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Vlček",
+              "type": "PER",
+              "weight": 8.4535
+            },
+            {
+              "canonical": "Radomír Chlad",
+              "type": "PER",
+              "weight": 2.9241
+            },
+            {
+              "canonical": "Starostové a nezávislí",
+              "type": "ORG",
+              "weight": 2.8568
+            },
+            {
+              "canonical": "Lukáš Vlček",
+              "type": "PER",
+              "weight": 2.2759
+            },
+            {
+              "canonical": "Vít Rakušan",
+              "type": "PER",
+              "weight": 1.8316
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 14,
+          "shared_all_count": 5,
+          "size": 3,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "5d221bb310a32134"
+      ],
+      "internal_density": 0.8333,
+      "shared_any_count": 15,
+      "shared_all_count": 3,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-19-0010",
+      "article_ids": [
+        "7117faf9756115de",
+        "6e4a54a79222c5ab",
+        "ee08f3325b0c3ca9",
+        "9e5ab98fa7aa2540"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Frýdek-Místek",
+          "type": "LOC",
+          "weight": 7.3129
+        },
+        {
+          "canonical": "Korč",
+          "type": "PER",
+          "weight": 6.111
+        },
+        {
+          "canonical": "NMFM",
+          "type": "ORG",
+          "weight": 6.0456
+        },
+        {
+          "canonical": "Helena Pešatová",
+          "type": "PER",
+          "weight": 3.158
+        },
+        {
+          "canonical": "Petr Korč",
+          "type": "PER",
+          "weight": 2.2204
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0010-00",
+          "article_ids": [
+            "6e4a54a79222c5ab",
+            "9e5ab98fa7aa2540"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Korč",
+              "type": "PER",
+              "weight": 7.2992
+            },
+            {
+              "canonical": "Frýdek-Místek",
+              "type": "LOC",
+              "weight": 5.5548
+            },
+            {
+              "canonical": "NMFM",
+              "type": "ORG",
+              "weight": 4.575
+            },
+            {
+              "canonical": "Helena Pešatová",
+              "type": "PER",
+              "weight": 1.915
+            },
+            {
+              "canonical": "komunální volby",
+              "type": "EVENT",
+              "weight": 1.7529
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 8,
+          "shared_all_count": 8,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "7117faf9756115de",
+        "ee08f3325b0c3ca9"
+      ],
+      "internal_density": 0.8333,
+      "shared_any_count": 26,
+      "shared_all_count": 4,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-19-0011",
+      "article_ids": [
+        "120e5f2e5abfff87",
+        "6245434e25420c62",
+        "e2bcd19fce3a2a64",
+        "8b1561e2531b079d"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Vondráček",
+          "type": "PER",
+          "weight": 7.3923
+        },
+        {
+          "canonical": "Senát",
+          "type": "ORG",
+          "weight": 6.3787
+        },
+        {
+          "canonical": "senátní volby",
+          "type": "EVENT",
+          "weight": 2.5712
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 2.0621
+        },
+        {
+          "canonical": "Radek Vondráček",
+          "type": "PER",
+          "weight": 1.3048
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0011-00",
+          "article_ids": [
+            "120e5f2e5abfff87",
+            "6245434e25420c62",
+            "e2bcd19fce3a2a64"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Vondráček",
+              "type": "PER",
+              "weight": 6.9769
+            },
+            {
+              "canonical": "Senát",
+              "type": "ORG",
+              "weight": 4.1848
+            },
+            {
+              "canonical": "senátní volby",
+              "type": "EVENT",
+              "weight": 1.8722
+            },
+            {
+              "canonical": "Radek Vondráček",
+              "type": "PER",
+              "weight": 1.7398
+            },
+            {
+              "canonical": "Karel Dvořák",
+              "type": "PER",
+              "weight": 1.6615
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 15,
+          "shared_all_count": 7,
+          "size": 3,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "8b1561e2531b079d"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 20,
+      "shared_all_count": 3,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-19-0012",
+      "article_ids": [
+        "8ff0269a01e94762",
+        "437cd91d11af96b4",
+        "9139b0f9702a0efe",
+        "baa8a0990d658819"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Karviná",
+          "type": "LOC",
+          "weight": 6.3411
+        },
+        {
+          "canonical": "Orlov",
+          "type": "LOC",
+          "weight": 3.8097
+        },
+        {
+          "canonical": "Brzyszkowská",
+          "type": "PER",
+          "weight": 3.2544
+        },
+        {
+          "canonical": "Karvina",
+          "type": "LOC",
+          "weight": 2.6424
+        },
+        {
+          "canonical": "Petr Kazík",
+          "type": "PER",
+          "weight": 2.6114
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0012-00",
+          "article_ids": [
+            "8ff0269a01e94762",
+            "9139b0f9702a0efe"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Brzyszkowská",
+              "type": "PER",
+              "weight": 6.5089
+            },
+            {
+              "canonical": "Karviná",
+              "type": "LOC",
+              "weight": 4.4154
+            },
+            {
+              "canonical": "Orlov",
+              "type": "LOC",
+              "weight": 3.6949
+            },
+            {
+              "canonical": "Slezské divadlo",
+              "type": "ORG",
+              "weight": 2.4854
+            },
+            {
+              "canonical": "Ondřej Feber",
+              "type": "PER",
+              "weight": 2.4854
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 14,
+          "shared_all_count": 14,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "437cd91d11af96b4",
+        "baa8a0990d658819"
+      ],
+      "internal_density": 0.8333,
+      "shared_any_count": 21,
+      "shared_all_count": 4,
+      "size": 4
+    },
+    {
+      "cluster_id": "2026-10-19-0013",
+      "article_ids": [
+        "a97d17758ac9e4fb",
+        "fb149e4742885f96",
+        "fad26a20b1f6a8dc"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Kolín",
+          "type": "LOC",
+          "weight": 3.0979
+        },
+        {
+          "canonical": "Kašpar",
+          "type": "PER",
+          "weight": 2.3308
+        },
+        {
+          "canonical": "Andrea Brzobohatá",
+          "type": "PER",
+          "weight": 1.0246
+        },
+        {
+          "canonical": "ODS",
+          "type": "ORG",
+          "weight": 0.7359
+        },
+        {
+          "canonical": "Michal David",
+          "type": "PER",
+          "weight": 0.6719
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [
+        "a97d17758ac9e4fb",
+        "fb149e4742885f96",
+        "fad26a20b1f6a8dc"
+      ],
+      "internal_density": 0.6667,
+      "shared_any_count": 27,
+      "shared_all_count": 1,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-19-0014",
+      "article_ids": [
+        "42f456547672400c",
+        "9a176d534169390d",
+        "37bb1e175e16eb8b"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Kupka",
+          "type": "PER",
+          "weight": 10.0788
+        },
+        {
+          "canonical": "Martin Kupka",
+          "type": "PER",
+          "weight": 2.3565
+        },
+        {
+          "canonical": "Senát",
+          "type": "ORG",
+          "weight": 2.1975
+        },
+        {
+          "canonical": "demokracie",
+          "type": "MISC",
+          "weight": 2.1547
+        },
+        {
+          "canonical": "Vláda",
+          "type": "ORG",
+          "weight": 1.7808
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0014-00",
+          "article_ids": [
+            "42f456547672400c",
+            "9a176d534169390d"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Kupka",
+              "type": "PER",
+              "weight": 7.4658
+            },
+            {
+              "canonical": "Senát",
+              "type": "ORG",
+              "weight": 3.2962
+            },
+            {
+              "canonical": "demokracie",
+              "type": "MISC",
+              "weight": 3.2321
+            },
+            {
+              "canonical": "vládní většina",
+              "type": "MISC",
+              "weight": 2.0131
+            },
+            {
+              "canonical": "horní komora",
+              "type": "MISC",
+              "weight": 1.7123
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 14,
+          "shared_all_count": 14,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "37bb1e175e16eb8b"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 14,
+      "shared_all_count": 3,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-19-0016",
+      "article_ids": [
+        "2152ef11ab6f747a",
+        "55b194bd255b72f5",
+        "9337bc06b4bf5fa5"
+      ],
+      "top_entities": [
+        {
+          "canonical": "navařík",
+          "type": "MISC",
+          "weight": 9.4762
+        },
+        {
+          "canonical": "Přerov",
+          "type": "LOC",
+          "weight": 4.8833
+        },
+        {
+          "canonical": "Jakub Navařík",
+          "type": "PER",
+          "weight": 2.1894
+        },
+        {
+          "canonical": "Vrána",
+          "type": "PER",
+          "weight": 2.173
+        },
+        {
+          "canonical": "Petr Vrána",
+          "type": "PER",
+          "weight": 1.4259
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0016-00",
+          "article_ids": [
+            "2152ef11ab6f747a",
+            "55b194bd255b72f5"
+          ],
+          "top_entities": [
+            {
+              "canonical": "navařík",
+              "type": "MISC",
+              "weight": 8.4874
+            },
+            {
+              "canonical": "Přerov",
+              "type": "LOC",
+              "weight": 3.5489
+            },
+            {
+              "canonical": "Vrána",
+              "type": "PER",
+              "weight": 1.3457
+            },
+            {
+              "canonical": "Jitka Seitlová",
+              "type": "PER",
+              "weight": 1.2832
+            },
+            {
+              "canonical": "Senát",
+              "type": "ORG",
+              "weight": 1.0898
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 13,
+          "shared_all_count": 13,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "9337bc06b4bf5fa5"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 13,
+      "shared_all_count": 7,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-19-0017",
+      "article_ids": [
+        "37da171d4ef8dddd",
+        "0eab7ebc529194c4",
+        "c8f2332f1eb6cf8c"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Grolich",
+          "type": "MISC",
+          "weight": 4.0489
+        },
+        {
+          "canonical": "KDU-ČSL",
+          "type": "ORG",
+          "weight": 2.582
+        },
+        {
+          "canonical": "horní komora",
+          "type": "MISC",
+          "weight": 2.5816
+        },
+        {
+          "canonical": "lidovci",
+          "type": "MISC",
+          "weight": 1.9698
+        },
+        {
+          "canonical": "volby sněmovní",
+          "type": "MISC",
+          "weight": 1.9139
+        }
+      ],
+      "subclusters": [
+        {
+          "subcluster_id": "2026-10-19-0017-00",
+          "article_ids": [
+            "0eab7ebc529194c4",
+            "c8f2332f1eb6cf8c"
+          ],
+          "top_entities": [
+            {
+              "canonical": "Grolich",
+              "type": "MISC",
+              "weight": 6.0734
+            },
+            {
+              "canonical": "KDU-ČSL",
+              "type": "ORG",
+              "weight": 2.2136
+            },
+            {
+              "canonical": "horní komora",
+              "type": "MISC",
+              "weight": 1.9678
+            },
+            {
+              "canonical": "volby do Poslanecké sněmovny",
+              "type": "MISC",
+              "weight": 1.7341
+            },
+            {
+              "canonical": "Zdeňka Papoušek",
+              "type": "PER",
+              "weight": 1.5829
+            }
+          ],
+          "internal_density": 1.0,
+          "shared_any_count": 19,
+          "shared_all_count": 19,
+          "size": 2,
+          "subclusters": [],
+          "subsingletons": []
+        }
+      ],
+      "subsingletons": [
+        "37da171d4ef8dddd"
+      ],
+      "internal_density": 1.0,
+      "shared_any_count": 22,
+      "shared_all_count": 10,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-19-0018",
+      "article_ids": [
+        "1e73e34b74caa266",
+        "5555e3d489986109",
+        "bebef05feb6e2d09"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Přerov",
+          "type": "LOC",
+          "weight": 4.0947
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 2.5848
+        },
+        {
+          "canonical": "ODS",
+          "type": "ORG",
+          "weight": 2.2298
+        },
+        {
+          "canonical": "Vrána",
+          "type": "PER",
+          "weight": 1.9765
+        },
+        {
+          "canonical": "lidovci",
+          "type": "MISC",
+          "weight": 1.6391
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 22,
+      "shared_all_count": 17,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-19-0019",
+      "article_ids": [
+        "a5667255c75dfad4",
+        "0222783134e52be0",
+        "01fef215695e45fe"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Sobotka",
+          "type": "PER",
+          "weight": 8.9967
+        },
+        {
+          "canonical": "ODS",
+          "type": "ORG",
+          "weight": 1.6558
+        },
+        {
+          "canonical": "komory",
+          "type": "MISC",
+          "weight": 1.4429
+        },
+        {
+          "canonical": "Linhart",
+          "type": "PER",
+          "weight": 1.4429
+        },
+        {
+          "canonical": "Ministerstvo územního rozvoje a životního prostředí",
+          "type": "ORG",
+          "weight": 1.4429
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 30,
+      "shared_all_count": 18,
+      "size": 3
+    },
+    {
+      "cluster_id": "2026-10-19-0020",
+      "article_ids": [
+        "291c8c7fa8e62912",
+        "5687a55042c59b7a"
+      ],
+      "top_entities": [
+        {
+          "canonical": "senátní volby 2026",
+          "type": "EVENT",
+          "weight": 9.2984
+        },
+        {
+          "canonical": "horní komora",
+          "type": "MISC",
+          "weight": 3.688
+        },
+        {
+          "canonical": "Horní komora",
+          "type": "ORG",
+          "weight": 3.4327
+        },
+        {
+          "canonical": "senátní volby",
+          "type": "EVENT",
+          "weight": 1.9971
+        },
+        {
+          "canonical": "hn. cz",
+          "type": "MISC",
+          "weight": 1.8698
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 4,
+      "shared_all_count": 4,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0021",
+      "article_ids": [
+        "59ba427d3accd1dd",
+        "a92cf5caa80f14a7"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Havel",
+          "type": "PER",
+          "weight": 3.9467
+        },
+        {
+          "canonical": "TOP 09",
+          "type": "ORG",
+          "weight": 2.3007
+        },
+        {
+          "canonical": "sněmovní volby",
+          "type": "MISC",
+          "weight": 0.9275
+        },
+        {
+          "canonical": "krajské volby",
+          "type": "EVENT",
+          "weight": 0.806
+        },
+        {
+          "canonical": "Andrej Babiš",
+          "type": "PER",
+          "weight": 0.7804
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 15,
+      "shared_all_count": 15,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0022",
+      "article_ids": [
+        "0cc69a91c0f61d10",
+        "2653741d7bbac9bd"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Babiš",
+          "type": "PER",
+          "weight": 2.2877
+        },
+        {
+          "canonical": "ANO",
+          "type": "ORG",
+          "weight": 1.7994
+        },
+        {
+          "canonical": "Andrej Babiš",
+          "type": "PER",
+          "weight": 1.0202
+        },
+        {
+          "canonical": "veřejnoprávní médium",
+          "type": "MISC",
+          "weight": 0.9209
+        },
+        {
+          "canonical": "Karel Havlíček",
+          "type": "PER",
+          "weight": 0.8585
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 11,
+      "shared_all_count": 11,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0023",
+      "article_ids": [
+        "beac8e0cdfeff6fb",
+        "fc3ccb94d1a01a66"
+      ],
+      "top_entities": [
+        {
+          "canonical": "gross",
+          "type": "MISC",
+          "weight": 5.4628
+        },
+        {
+          "canonical": "ČSSD",
+          "type": "ORG",
+          "weight": 3.0917
+        },
+        {
+          "canonical": "Hnutí ANO",
+          "type": "ORG",
+          "weight": 1.9212
+        },
+        {
+          "canonical": "Senátní volby 2004",
+          "type": "EVENT",
+          "weight": 1.8969
+        },
+        {
+          "canonical": "Stanislav Gross",
+          "type": "PER",
+          "weight": 1.7314
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 7,
+      "shared_all_count": 7,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0024",
+      "article_ids": [
+        "99642a4c39191d34",
+        "3ef12ba1ef3b0353"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Výtoň",
+          "type": "LOC",
+          "weight": 6.8576
+        },
+        {
+          "canonical": "Praha",
+          "type": "LOC",
+          "weight": 2.2611
+        },
+        {
+          "canonical": "Andrej Babiš",
+          "type": "PER",
+          "weight": 2.2322
+        },
+        {
+          "canonical": "Smíchov",
+          "type": "LOC",
+          "weight": 1.6272
+        },
+        {
+          "canonical": "Správa železnic",
+          "type": "ORG",
+          "weight": 1.6272
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 13,
+      "shared_all_count": 13,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0025",
+      "article_ids": [
+        "1b59d937de83272d",
+        "323ecbcfe5359840"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Median",
+          "type": "ORG",
+          "weight": 5.2861
+        },
+        {
+          "canonical": "Poslanecké volby",
+          "type": "MISC",
+          "weight": 2.385
+        },
+        {
+          "canonical": "STEM",
+          "type": "ORG",
+          "weight": 2.385
+        },
+        {
+          "canonical": "motoristé",
+          "type": "MISC",
+          "weight": 1.9816
+        },
+        {
+          "canonical": "Dolní komora",
+          "type": "ORG",
+          "weight": 1.9385
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 17,
+      "shared_all_count": 17,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0026",
+      "article_ids": [
+        "cafb4eda8a0bcce2",
+        "04503f7618899271"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Evropská komise",
+          "type": "ORG",
+          "weight": 3.6069
+        },
+        {
+          "canonical": "unie",
+          "type": "MISC",
+          "weight": 2.4408
+        },
+        {
+          "canonical": "RSVP Trust",
+          "type": "ORG",
+          "weight": 2.4408
+        },
+        {
+          "canonical": "Brusel",
+          "type": "LOC",
+          "weight": 2.3079
+        },
+        {
+          "canonical": "lex babiš",
+          "type": "MISC",
+          "weight": 2.2037
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 8,
+      "shared_all_count": 8,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0027",
+      "article_ids": [
+        "262c342b3b58415f",
+        "7c9778c8a2106b54"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Otakar Jirák",
+          "type": "PER",
+          "weight": 9.2984
+        },
+        {
+          "canonical": "Sitcom",
+          "type": "MISC",
+          "weight": 5.9412
+        },
+        {
+          "canonical": "Mladá Boleslav",
+          "type": "LOC",
+          "weight": 5.9412
+        },
+        {
+          "canonical": "Drahomíra",
+          "type": "PER",
+          "weight": 3.2544
+        },
+        {
+          "canonical": "Alfa",
+          "type": "ORG",
+          "weight": 2.9706
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 23,
+      "shared_all_count": 23,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0028",
+      "article_ids": [
+        "0dd89812b0fdac89",
+        "0e775d00b4619f45"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Bazala",
+          "type": "PER",
+          "weight": 6.7051
+        },
+        {
+          "canonical": "Uherské Hradiště",
+          "type": "LOC",
+          "weight": 3.8339
+        },
+        {
+          "canonical": "KDU-ČSL",
+          "type": "ORG",
+          "weight": 2.6642
+        },
+        {
+          "canonical": "Vašica",
+          "type": "PER",
+          "weight": 1.8698
+        },
+        {
+          "canonical": "Josef Bazala",
+          "type": "PER",
+          "weight": 1.6155
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 8,
+      "shared_all_count": 8,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0029",
+      "article_ids": [
+        "a39043608b96da95",
+        "fb52d13675cd8c9d"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Goláň",
+          "type": "PER",
+          "weight": 7.6712
+        },
+        {
+          "canonical": "Zlín",
+          "type": "LOC",
+          "weight": 4.6599
+        },
+        {
+          "canonical": "Mitáček",
+          "type": "PER",
+          "weight": 2.1665
+        },
+        {
+          "canonical": "Tomáš Goláň",
+          "type": "PER",
+          "weight": 1.9801
+        },
+        {
+          "canonical": "Hlas Zlínska",
+          "type": "ORG",
+          "weight": 1.6272
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 10,
+      "shared_all_count": 10,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0030",
+      "article_ids": [
+        "a6201d56c540342d",
+        "5175dd39e4b27a2a"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Větrné elektrárny",
+          "type": "ORG",
+          "weight": 4.8816
+        },
+        {
+          "canonical": "Bystré nad Jizerou",
+          "type": "LOC",
+          "weight": 3.2544
+        },
+        {
+          "canonical": "Bystré",
+          "type": "LOC",
+          "weight": 2.6712
+        },
+        {
+          "canonical": "Turkovo Velké",
+          "type": "LOC",
+          "weight": 1.7363
+        },
+        {
+          "canonical": "větrné elektrárny",
+          "type": "MISC",
+          "weight": 0.9349
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 2,
+      "shared_all_count": 2,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0031",
+      "article_ids": [
+        "e64aa07a694fe755",
+        "23d05bfb513ed929"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Maroko",
+          "type": "LOC",
+          "weight": 5.729
+        },
+        {
+          "canonical": "Pavel",
+          "type": "PER",
+          "weight": 2.7749
+        },
+        {
+          "canonical": "Petr Pavel",
+          "type": "PER",
+          "weight": 1.8367
+        },
+        {
+          "canonical": "pavlovy lety",
+          "type": "MISC",
+          "weight": 1.4237
+        },
+        {
+          "canonical": "FESH",
+          "type": "ORG",
+          "weight": 1.0879
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 12,
+      "shared_all_count": 12,
+      "size": 2
+    },
+    {
+      "cluster_id": "2026-10-19-0032",
+      "article_ids": [
+        "49e98e11c79edcdb",
+        "83c2adf62512ce8b"
+      ],
+      "top_entities": [
+        {
+          "canonical": "Martin Bílý",
+          "type": "PER",
+          "weight": 4.5562
+        },
+        {
+          "canonical": "Čína",
+          "type": "LOC",
+          "weight": 4.5099
+        },
+        {
+          "canonical": "Jang I-min",
+          "type": "MISC",
+          "weight": 1.8698
+        },
+        {
+          "canonical": "čínské zpravodajské služby",
+          "type": "MISC",
+          "weight": 1.8698
+        },
+        {
+          "canonical": "Čínská zpravodajská služba",
+          "type": "ORG",
+          "weight": 1.6272
+        }
+      ],
+      "subclusters": [],
+      "subsingletons": [],
+      "internal_density": 1.0,
+      "shared_any_count": 3,
+      "shared_all_count": 3,
+      "size": 2
+    }
+  ],
+  "singletons": [
+    "09b0891c8c0afb4a",
+    "c870200bb646b5e6",
+    "b5cbbf32db93f1e8",
+    "431f3f5f74db0d89",
+    "c8cb1d34d39b4953",
+    "46b0ac0aa4acff6a",
+    "c22b558472434558",
+    "bda8623d8cffa8b3",
+    "4ced6a658dfa94c4",
+    "d947dc6970ae2ab9",
+    "ea50c96a964de069",
+    "ae379bd5a043dae9",
+    "e94032a47a679c72",
+    "34a8df676bee9d63",
+    "ea4597bfce9161fe",
+    "f7b2b9ad898974ca",
+    "d5da06293813bbc6",
+    "eb78aa7e33fd8b44",
+    "4154aea9e9965389",
+    "82b3bc38a7b24c6f",
+    "54c9518fc83672a6",
+    "78eeb4f61251ebb7",
+    "9c8728b208e25404",
+    "b4ab22d54845bc02",
+    "7cf993d2fd4f1806",
+    "32f1c5ecefff2f34",
+    "12b1b7b7343c889e",
+    "74332bd0509d3c1e",
+    "35fc413069b67d42",
+    "c4c56a92209d87d6",
+    "764f8d3e6bce1d00",
+    "8669eddb4ac2fd2c",
+    "058b0df7a0c035de",
+    "9d8533794edf8834",
+    "f9ed7ada6703c49a",
+    "7573f16fdb595503",
+    "f72fadcef5f13fa8",
+    "822433cf3217410d",
+    "d4b10d25d61ae109",
+    "e5bc008057843a7d",
+    "4ae430d4896a7bb6",
+    "b92d7718c52ed117",
+    "e2df50d7eeede731",
+    "b09aa72b44c3b6e3",
+    "c21b66b3361fea69",
+    "3d8306057bfc36b0",
+    "6b7e37daf455f4fb",
+    "108d462c3a68dfaa",
+    "1bef4e020b205f03",
+    "fab1412a1d43f00c",
+    "21d98f20e353c83c",
+    "d948fd32a3d496b6",
+    "9a60e8043a07387c",
+    "e8eb8f7780a85524",
+    "53e326b9736493e4",
+    "bf64e99a4c5493b6",
+    "9b91ca1e5c94a106",
+    "821ffd2ee2a24dab",
+    "3079d57c1146e337",
+    "a2ff5c1268321c04",
+    "d0b821cd612c016d",
+    "cc396cdf8bf19a3a",
+    "fe9c4017552c42e3",
+    "b532584accd3f0b0",
+    "b5e1aa08a4587fa5",
+    "030804d8210551c4",
+    "b9b09182a9fd9181",
+    "03415bd68a6eb62f",
+    "cbbadd416baa4594",
+    "048fa3c963b1c719",
+    "5dba78ed2f2a5f2f",
+    "a0422b8c2f064120",
+    "60cf1853255aaba5",
+    "6b9342f1cbcb9c9e",
+    "5cad83e795207ad6",
+    "7e5c2c7cf40a79c8",
+    "3fcb33d762a842b3",
+    "d36ade748f32b64f",
+    "adfd982a4877199e",
+    "8f3731bf5fa8afbe",
+    "d5bcd36c7618e6a6",
+    "7bf87fed39b154bc",
+    "102d9cdc6049ec91",
+    "b2057773c91115d4",
+    "7d5100623946f695",
+    "5487265f4d8c1328",
+    "bcde4384eb2f740f",
+    "3d8b840ae5056fd3",
+    "02ccf06ffbee8376",
+    "fa883de6957bef4f",
+    "63fda848a394815a",
+    "56d57244ef0e185d",
+    "6dc8be22c1e67a7e",
+    "831230982a5c18ba",
+    "aafa3838064c97fb",
+    "314e354582dcd296",
+    "d1daa89bc5253395",
+    "f8ae2748e8e1b39b",
+    "18d6335956569e86",
+    "f7d76c720d7a79cf",
+    "cefd74c3c81bcfbe",
+    "41128e4140c73645",
+    "6e75526ec39b349d",
+    "b71c43cf76521a3b",
+    "4bd982424a5fc1b9",
+    "dbc4b6501f553be9",
+    "a6057b7076d893cf",
+    "e2429fd489a9ecc3",
+    "6dad563c04712b02",
+    "f607f854131ae7ff",
+    "f3ed003dce46488b",
+    "6aeb599df79af84b",
+    "eb7c6825140a08fa",
+    "dc94a25451920f8e",
+    "840e158264cf6143",
+    "68707e6e556c3c20",
+    "39797a46c683c30b",
+    "cd1a4b2e881e70bd",
+    "573bb9caa38fe27e",
+    "9e1ff5857b93a221",
+    "2e42704296bc9e57",
+    "a8b6d15083f8276e",
+    "e961236a9a360f23",
+    "6d867fc0d1f1b8e8",
+    "ef963eb72573867f"
+  ],
+  "stats": {
+    "article_count": 209,
+    "edges_before_sparsify": 1000,
+    "edges_after_sparsify": 210,
+    "largest_component_size": 10,
+    "largest_component_fraction": 0.0478,
+    "degree_distribution": [
+      {
+        "label": "0",
+        "count": 79
+      },
+      {
+        "label": "1–3",
+        "count": 72
+      },
+      {
+        "label": "4–10",
+        "count": 56
+      },
+      {
+        "label": ">10",
+        "count": 2
+      }
+    ],
+    "cluster_size_histogram": [
+      {
+        "label": "1",
+        "count": 89
+      },
+      {
+        "label": "2–3",
+        "count": 20
+      },
+      {
+        "label": "4–10",
+        "count": 13
+      },
+      {
+        "label": ">10",
+        "count": 0
+      }
+    ],
+    "top_entities_by_df": [
+      {
+        "canonical": "ODS",
+        "type": "ORG",
+        "doc_count": 95,
+        "pct": 45.5
+      },
+      {
+        "canonical": "ANO",
+        "type": "ORG",
+        "doc_count": 85,
+        "pct": 40.7
+      },
+      {
+        "canonical": "senátní volby",
+        "type": "EVENT",
+        "doc_count": 77,
+        "pct": 36.8
+      },
+      {
+        "canonical": "TOP 09",
+        "type": "ORG",
+        "doc_count": 54,
+        "pct": 25.8
+      },
+      {
+        "canonical": "SPD",
+        "type": "ORG",
+        "doc_count": 50,
+        "pct": 23.9
+      },
+      {
+        "canonical": "Hnutí ANO",
+        "type": "ORG",
+        "doc_count": 44,
+        "pct": 21.1
+      },
+      {
+        "canonical": "KDU-ČSL",
+        "type": "ORG",
+        "doc_count": 43,
+        "pct": 20.6
+      },
+      {
+        "canonical": "Andrej Babiš",
+        "type": "PER",
+        "doc_count": 40,
+        "pct": 19.1
+      },
+      {
+        "canonical": "Starostové a nezávislí",
+        "type": "ORG",
+        "doc_count": 37,
+        "pct": 17.7
+      },
+      {
+        "canonical": "Česko",
+        "type": "LOC",
+        "doc_count": 35,
+        "pct": 16.7
+      },
+      {
+        "canonical": "Praha",
+        "type": "LOC",
+        "doc_count": 33,
+        "pct": 15.8
+      },
+      {
+        "canonical": "Česká republika",
+        "type": "LOC",
+        "doc_count": 28,
+        "pct": 13.4
+      },
+      {
+        "canonical": "Česká pirátská strana",
+        "type": "ORG",
+        "doc_count": 23,
+        "pct": 11.0
+      },
+      {
+        "canonical": "1.",
+        "type": "MISC",
+        "doc_count": 22,
+        "pct": 10.5
+      },
+      {
+        "canonical": "volby.cz",
+        "type": "ORG",
+        "doc_count": 22,
+        "pct": 10.5
+      },
+      {
+        "canonical": "komunální volby",
+        "type": "EVENT",
+        "doc_count": 20,
+        "pct": 9.6
+      },
+      {
+        "canonical": "Česká lidová strana – Československá strana sociálně demokratická",
+        "type": "ORG",
+        "doc_count": 19,
+        "pct": 9.1
+      },
+      {
+        "canonical": "Horní komora",
+        "type": "ORG",
+        "doc_count": 18,
+        "pct": 8.6
+      },
+      {
+        "canonical": "Babiš",
+        "type": "PER",
+        "doc_count": 18,
+        "pct": 8.6
+      },
+      {
+        "canonical": "ČTK",
+        "type": "ORG",
+        "doc_count": 18,
+        "pct": 8.6
+      }
+    ]
+  }
+}
